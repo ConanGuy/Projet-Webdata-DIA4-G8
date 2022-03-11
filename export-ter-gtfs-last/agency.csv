@@ -1,0 +1,4 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang
+OCEdefault,SNCF_default,http://www.sncf.com,Europe/Paris,fr
+OCESN,SNCF,http://www.sncf.com,Europe/Paris,fr
+SNCF,SNCF_default,http://www.sncf.com,Europe/Paris,fr
