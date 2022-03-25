@@ -1,0 +1,2420 @@
+{
+    "@context": {
+        "@vocab": "http://www.semanticweb.org/ontologies/2022/2/garetgv#",
+        "@base": "http://www.semanticweb.org/ontologies/2022/2/garetgv",
+        "id": "@id",
+        "gare_id": {
+            "@id": "gare_id",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "nom_gare": {
+            "@id": "nom_gare",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "insee_reg": {
+            "@id": "insee_reg",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "nom_reg": {
+            "@id": "nom_reg",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "insee_dep": {
+            "@id": "insee_dep",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "nom_dep": {
+            "@id": "nom_dep",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "latitude": {
+            "@id": "latitude",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        },
+        "longitude": {
+            "@id": "longitude",
+            "@type": "http://www.w3.org/2001/XMLSchema#string"
+        }
+    },
+    "features": [
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "1",
+                "nom_gare": "Aix-en-Provence TGV",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "1",
+                "nom_dep": "Ain",
+                "latitude": "46.097",
+                "longitude": "4.847"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "2",
+                "nom_gare": "Bellegarde",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "1",
+                "nom_dep": "Ain",
+                "latitude": "46.114",
+                "longitude": "5.824"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "3",
+                "nom_gare": "Bourg-en-Bresse",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "1",
+                "nom_dep": "Ain",
+                "latitude": "46.196",
+                "longitude": "5.275"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "4",
+                "nom_gare": "Cluses",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "1",
+                "nom_dep": "Ain",
+                "latitude": "46.171",
+                "longitude": "5.577"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "5",
+                "nom_gare": "Nurieux",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "1",
+                "nom_dep": "Ain",
+                "latitude": "46.181",
+                "longitude": "5.521"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "6",
+                "nom_gare": "Antibes",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "6",
+                "nom_dep": "Alpes-Maritimes",
+                "latitude": "43.584",
+                "longitude": "7.108"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "7",
+                "nom_gare": "Cannes",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "6",
+                "nom_dep": "Alpes-Maritimes",
+                "latitude": "43.653",
+                "longitude": "7.146"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "8",
+                "nom_gare": "Menton",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "6",
+                "nom_dep": "Alpes-Maritimes",
+                "latitude": "43.774",
+                "longitude": "7.489"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "9",
+                "nom_gare": "Nice-Ville",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "6",
+                "nom_dep": "Alpes-Maritimes",
+                "latitude": "43.697",
+                "longitude": "7.272"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "10",
+                "nom_gare": "Charleville-M\u00ef\u00bf\u00bdzi\u00ef\u00bf\u00bdres",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "8",
+                "nom_dep": "Ardennes",
+                "latitude": "49.771",
+                "longitude": "4.72"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "11",
+                "nom_gare": "Rethel",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "8",
+                "nom_dep": "Ardennes",
+                "latitude": "49.5",
+                "longitude": "4.402"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "12",
+                "nom_gare": "Sedan",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "8",
+                "nom_dep": "Ardennes",
+                "latitude": "49.705",
+                "longitude": "4.943"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "13",
+                "nom_gare": "Dijon-Ville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "10",
+                "nom_dep": "Aube",
+                "latitude": "48.119",
+                "longitude": "4.789"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "14",
+                "nom_gare": "Carcassonne",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "11",
+                "nom_dep": "Aude",
+                "latitude": "43.179",
+                "longitude": "2.405"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "15",
+                "nom_gare": "Narbonne",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "11",
+                "nom_dep": "Aude",
+                "latitude": "43.182",
+                "longitude": "3.026"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "16",
+                "nom_gare": "Arles",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "13",
+                "nom_dep": "Bouches-du-Rh\u00ef\u00bf\u00bdne",
+                "latitude": "43.641",
+                "longitude": "5.071"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "17",
+                "nom_gare": "Avignon TGV",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "13",
+                "nom_dep": "Bouches-du-Rh\u00ef\u00bf\u00bdne",
+                "latitude": "43.657",
+                "longitude": "5.095"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "18",
+                "nom_gare": "Marseille-Saint-Charles",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "13",
+                "nom_dep": "Bouches-du-Rh\u00ef\u00bf\u00bdne",
+                "latitude": "43.255",
+                "longitude": "5.432"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "19",
+                "nom_gare": "Miramas",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "13",
+                "nom_dep": "Bouches-du-Rh\u00ef\u00bf\u00bdne",
+                "latitude": "43.643",
+                "longitude": "5.021"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "20",
+                "nom_gare": "Angoul\u00ef\u00bf\u00bdme",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "16",
+                "nom_dep": "Charente",
+                "latitude": "45.655",
+                "longitude": "0.151"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "21",
+                "nom_gare": "Champagne-Ardenne TGV",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "16",
+                "nom_dep": "Charente",
+                "latitude": "45.62",
+                "longitude": "-0.222"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "22",
+                "nom_gare": "La Rochelle-Ville",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "17",
+                "nom_dep": "Charente-Maritime",
+                "latitude": "46.158",
+                "longitude": "-1.154"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "23",
+                "nom_gare": "Rouen-Rive-Droite",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "17",
+                "nom_dep": "Charente-Maritime",
+                "latitude": "46.318",
+                "longitude": "-0.973"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "24",
+                "nom_gare": "Surg\u00ef\u00bf\u00bdres",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "17",
+                "nom_dep": "Charente-Maritime",
+                "latitude": "46.114",
+                "longitude": "-0.741"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "25",
+                "nom_gare": "Beaune",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "21",
+                "nom_dep": "C\u00ef\u00bf\u00bdte-d'Or",
+                "latitude": "47.104",
+                "longitude": "4.67"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "26",
+                "nom_gare": "Montbard",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "21",
+                "nom_dep": "C\u00ef\u00bf\u00bdte-d'Or",
+                "latitude": "47.837",
+                "longitude": "4.364"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "27",
+                "nom_gare": "Guingamp",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "22",
+                "nom_dep": "C\u00ef\u00bf\u00bdtes-d'Armor",
+                "latitude": "48.563",
+                "longitude": "-3.155"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "28",
+                "nom_gare": "Lamballe",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "22",
+                "nom_dep": "C\u00ef\u00bf\u00bdtes-d'Armor",
+                "latitude": "48.439",
+                "longitude": "-2.538"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "29",
+                "nom_gare": "Lannion",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "22",
+                "nom_dep": "C\u00ef\u00bf\u00bdtes-d'Armor",
+                "latitude": "48.744",
+                "longitude": "-3.472"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "30",
+                "nom_gare": "M\u00ef\u00bf\u00bdcon-Ville",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "22",
+                "nom_dep": "C\u00ef\u00bf\u00bdtes-d'Armor",
+                "latitude": "48.581",
+                "longitude": "-2.197"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "31",
+                "nom_gare": "Saint-Brieuc",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "22",
+                "nom_dep": "C\u00ef\u00bf\u00bdtes-d'Armor",
+                "latitude": "48.503",
+                "longitude": "-2.763"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "32",
+                "nom_gare": "Besan\u00ef\u00bf\u00bdon-Viotte",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "25",
+                "nom_dep": "Doubs",
+                "latitude": "47.248",
+                "longitude": "6.026"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "33",
+                "nom_gare": "Frasne",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "25",
+                "nom_dep": "Doubs",
+                "latitude": "46.856",
+                "longitude": "6.149"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "34",
+                "nom_gare": "Mont\u00ef\u00bf\u00bdlimar",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "26",
+                "nom_dep": "Dr\u00ef\u00bf\u00bdme",
+                "latitude": "44.546",
+                "longitude": "4.744"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "35",
+                "nom_gare": "Valence TGV",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "26",
+                "nom_dep": "Dr\u00ef\u00bf\u00bdme",
+                "latitude": "45.065",
+                "longitude": "4.891"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "36",
+                "nom_gare": "Valence-Ville",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "26",
+                "nom_dep": "Dr\u00ef\u00bf\u00bdme",
+                "latitude": "44.933",
+                "longitude": "4.891"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "37",
+                "nom_gare": "Brest",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "48.391",
+                "longitude": "-4.502"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "38",
+                "nom_gare": "Landerneau",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "48.45",
+                "longitude": "-4.253"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "39",
+                "nom_gare": "Quimper",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "48.014",
+                "longitude": "-4.094"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "40",
+                "nom_gare": "Quimperl\u00ef\u00bf\u00bd",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "47.884",
+                "longitude": "-3.548"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "41",
+                "nom_gare": "Rosporden",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "47.989",
+                "longitude": "-3.791"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "42",
+                "nom_gare": "Morlaix",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "29",
+                "nom_dep": "Finist\u00ef\u00bf\u00bdre",
+                "latitude": "48.579",
+                "longitude": "-3.833"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "43",
+                "nom_gare": "N\u00ef\u00bf\u00bdmes",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "30",
+                "nom_dep": "Gard",
+                "latitude": "43.832",
+                "longitude": "4.386"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "44",
+                "nom_gare": "N\u00ef\u00bf\u00bdmes-Pont-du-Gard",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "30",
+                "nom_dep": "Gard",
+                "latitude": "43.851",
+                "longitude": "4.37"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "45",
+                "nom_gare": "Meuse TGV",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "31",
+                "nom_dep": "Haute-Garonne",
+                "latitude": "43.583",
+                "longitude": "1.484"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "46",
+                "nom_gare": "Toulouse-Matabiau",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "31",
+                "nom_dep": "Haute-Garonne",
+                "latitude": "43.61",
+                "longitude": "1.447"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "47",
+                "nom_gare": "Arcachon",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "33",
+                "nom_dep": "Gironde",
+                "latitude": "44.662",
+                "longitude": "-1.17"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "48",
+                "nom_gare": "Bordeaux-Saint-Jean",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "33",
+                "nom_dep": "Gironde",
+                "latitude": "44.838",
+                "longitude": "-0.57"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "49",
+                "nom_gare": "Facture-Biganos",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "33",
+                "nom_dep": "Gironde",
+                "latitude": "44.65",
+                "longitude": "-0.956"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "50",
+                "nom_gare": "Libourne",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "33",
+                "nom_dep": "Gironde",
+                "latitude": "44.896",
+                "longitude": "-0.24"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "51",
+                "nom_gare": "La Teste",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "33",
+                "nom_dep": "Gironde",
+                "latitude": "44.633",
+                "longitude": "-1.133"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "52",
+                "nom_gare": "Agde",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.318",
+                "longitude": "3.483"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "53",
+                "nom_gare": "B\u00ef\u00bf\u00bdziers",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.42",
+                "longitude": "3.236"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "54",
+                "nom_gare": "Montpellier-Saint-Roch",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.603",
+                "longitude": "3.89"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "55",
+                "nom_gare": "Montpellier-Sud-de-France",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.595",
+                "longitude": "3.924"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "56",
+                "nom_gare": "S\u00ef\u00bf\u00bdte",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.409",
+                "longitude": "3.698"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "57",
+                "nom_gare": "TGV Haute-Picardie",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "34",
+                "nom_dep": "H\u00ef\u00bf\u00bdrault",
+                "latitude": "43.394",
+                "longitude": "3.68"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "58",
+                "nom_gare": "Dol-de-Bretagne",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "48.551",
+                "longitude": "-1.738"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "59",
+                "nom_gare": "Plouaret-Tr\u00ef\u00bf\u00bdgor",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "48.035",
+                "longitude": "-1.704"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "60",
+                "nom_gare": "Redon",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "47.652",
+                "longitude": "-2.083"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "61",
+                "nom_gare": "Rennes",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "48.11",
+                "longitude": "-1.684"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "62",
+                "nom_gare": "Saint-Malo",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "48.657",
+                "longitude": "-1.974"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "63",
+                "nom_gare": "Vitr\u00ef\u00bf\u00bd",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "35",
+                "nom_dep": "Ille-et-Vilaine",
+                "latitude": "48.131",
+                "longitude": "-1.218"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "64",
+                "nom_gare": "Lorraine TGV",
+                "insee_reg": "24",
+                "nom_reg": "Centre-Val de Loire",
+                "insee_dep": "37",
+                "nom_dep": "Indre-et-Loire",
+                "latitude": "47.381",
+                "longitude": "0.71"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "65",
+                "nom_gare": "Saint-Pierre-des-Corps",
+                "insee_reg": "24",
+                "nom_reg": "Centre-Val de Loire",
+                "insee_dep": "37",
+                "nom_dep": "Indre-et-Loire",
+                "latitude": "47.386",
+                "longitude": "0.761"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "66",
+                "nom_gare": "Tours",
+                "insee_reg": "24",
+                "nom_reg": "Centre-Val de Loire",
+                "insee_dep": "37",
+                "nom_dep": "Indre-et-Loire",
+                "latitude": "47.402",
+                "longitude": "0.696"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "67",
+                "nom_gare": "Grenoble",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "38",
+                "nom_dep": "Is\u00ef\u00bf\u00bdre",
+                "latitude": "45.177",
+                "longitude": "5.741"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "68",
+                "nom_gare": "Mouchard",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "39",
+                "nom_dep": "Jura",
+                "latitude": "46.978",
+                "longitude": "5.792"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "69",
+                "nom_gare": "Dax",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "40",
+                "nom_dep": "Landes",
+                "latitude": "43.709",
+                "longitude": "-1.068"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "70",
+                "nom_gare": "Vend\u00ef\u00bf\u00bdme - Villiers-sur-Loir",
+                "insee_reg": "24",
+                "nom_reg": "Centre-Val de Loire",
+                "insee_dep": "41",
+                "nom_dep": "Loir-et-Cher",
+                "latitude": "47.799",
+                "longitude": "1.036"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "71",
+                "nom_gare": "Montauban-Ville-Bourbon",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "42",
+                "nom_dep": "Loire",
+                "latitude": "45.429",
+                "longitude": "4.36"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "72",
+                "nom_gare": "Saint-\u00ef\u00bf\u00bdtienne-Ch\u00ef\u00bf\u00bdteaucreux",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "42",
+                "nom_dep": "Loire",
+                "latitude": "45.443",
+                "longitude": "4.4"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "73",
+                "nom_gare": "Ancenis",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.366",
+                "longitude": "-1.184"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "74",
+                "nom_gare": "La Baule-Escoublac",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.285",
+                "longitude": "-2.371"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "75",
+                "nom_gare": "Le Croisic",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.287",
+                "longitude": "-2.51"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "76",
+                "nom_gare": "Nantes",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.259",
+                "longitude": "-1.529"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "77",
+                "nom_gare": "Pornichet",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.252",
+                "longitude": "-2.314"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "78",
+                "nom_gare": "Le Pouliguen",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.277",
+                "longitude": "-2.439"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "79",
+                "nom_gare": "Saint-Nazaire",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "44",
+                "nom_dep": "Loire-Atlantique",
+                "latitude": "47.299",
+                "longitude": "-2.184"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "80",
+                "nom_gare": "Agen",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "47",
+                "nom_dep": "Lot-et-Garonne",
+                "latitude": "44.206",
+                "longitude": "0.618"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "81",
+                "nom_gare": "Angers-Saint-Laud",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "49",
+                "nom_dep": "Maine-et-Loire",
+                "latitude": "47.473",
+                "longitude": "-0.552"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "82",
+                "nom_gare": "Saumur",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "49",
+                "nom_dep": "Maine-et-Loire",
+                "latitude": "47.263",
+                "longitude": "-0.073"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "83",
+                "nom_gare": "Ch\u00ef\u00bf\u00bdlons-en-Champagne",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "51",
+                "nom_dep": "Marne",
+                "latitude": "48.956",
+                "longitude": "4.362"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "84",
+                "nom_gare": "Reims",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "51",
+                "nom_dep": "Marne",
+                "latitude": "49.245",
+                "longitude": "4.041"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "85",
+                "nom_gare": "Vitry-le-Fran\u00ef\u00bf\u00bdois",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "51",
+                "nom_dep": "Marne",
+                "latitude": "48.73",
+                "longitude": "4.597"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "86",
+                "nom_gare": "Laval",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "53",
+                "nom_dep": "Mayenne",
+                "latitude": "48.077",
+                "longitude": "-0.76"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "87",
+                "nom_gare": "Lun\u00ef\u00bf\u00bdville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "54",
+                "nom_dep": "Meurthe-et-Moselle",
+                "latitude": "48.585",
+                "longitude": "6.483"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "88",
+                "nom_gare": "Nancy-Ville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "54",
+                "nom_dep": "Meurthe-et-Moselle",
+                "latitude": "48.703",
+                "longitude": "6.224"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "89",
+                "nom_gare": "Bar-le-Duc",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "55",
+                "nom_dep": "Meuse",
+                "latitude": "48.756",
+                "longitude": "5.194"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "90",
+                "nom_gare": "Auray",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "56",
+                "nom_dep": "Morbihan",
+                "latitude": "47.663",
+                "longitude": "-2.988"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "91",
+                "nom_gare": "Lorient",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "56",
+                "nom_dep": "Morbihan",
+                "latitude": "47.759",
+                "longitude": "-3.384"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "92",
+                "nom_gare": "Vannes",
+                "insee_reg": "53",
+                "nom_reg": "Bretagne",
+                "insee_dep": "56",
+                "nom_dep": "Morbihan",
+                "latitude": "47.636",
+                "longitude": "-2.773"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "93",
+                "nom_gare": "Forbach",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "57",
+                "nom_dep": "Moselle",
+                "latitude": "49.18",
+                "longitude": "6.895"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "94",
+                "nom_gare": "Metz-Ville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "57",
+                "nom_dep": "Moselle",
+                "latitude": "49.101",
+                "longitude": "6.155"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "95",
+                "nom_gare": "Sarrebourg",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "57",
+                "nom_dep": "Moselle",
+                "latitude": "48.735",
+                "longitude": "7.052"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "96",
+                "nom_gare": "Thionville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "57",
+                "nom_dep": "Moselle",
+                "latitude": "49.362",
+                "longitude": "6.144"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "97",
+                "nom_gare": "Croix - Wasquehal",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.678",
+                "longitude": "3.135"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "98",
+                "nom_gare": "Douai",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.39",
+                "longitude": "3.09"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "99",
+                "nom_gare": "Dunkerque",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "51.046",
+                "longitude": "2.389"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "100",
+                "nom_gare": "Hazebrouck",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.738",
+                "longitude": "2.726"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "101",
+                "nom_gare": "Lille-Europe",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.641",
+                "longitude": "3.074"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "102",
+                "nom_gare": "Lille-Flandres",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.628",
+                "longitude": "3.056"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "103",
+                "nom_gare": "Roubaix",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.701",
+                "longitude": "3.17"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "104",
+                "nom_gare": "Tourcoing",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.718",
+                "longitude": "3.141"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "105",
+                "nom_gare": "Valenciennes",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "59",
+                "nom_dep": "Nord",
+                "latitude": "50.342",
+                "longitude": "3.517"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "106",
+                "nom_gare": "Boulogne-Ville",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "60",
+                "nom_dep": "Oise",
+                "latitude": "49.607",
+                "longitude": "2.707"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "107",
+                "nom_gare": "Arras",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.29",
+                "longitude": "2.778"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "108",
+                "nom_gare": "B\u00ef\u00bf\u00bdthune",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.517",
+                "longitude": "2.636"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "109",
+                "nom_gare": "Calais - Fr\u00ef\u00bf\u00bdthun",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.935",
+                "longitude": "1.85"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "110",
+                "nom_gare": "Calais-Ville",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.43",
+                "longitude": "3.063"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "111",
+                "nom_gare": "\u00ef\u00bf\u00bdtaples - Le Touquet",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.525",
+                "longitude": "1.589"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "112",
+                "nom_gare": "Lens",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.419",
+                "longitude": "3.027"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "113",
+                "nom_gare": "Rang-du-Fliers - Verton",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "62",
+                "nom_dep": "Pas-de-Calais",
+                "latitude": "50.414",
+                "longitude": "1.619"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "114",
+                "nom_gare": "Bayonne",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.503",
+                "longitude": "-1.443"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "115",
+                "nom_gare": "Biarritz",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.472",
+                "longitude": "-1.555"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "116",
+                "nom_gare": "Hendaye",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.355",
+                "longitude": "-1.774"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "117",
+                "nom_gare": "Orthez",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.491",
+                "longitude": "-0.768"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "118",
+                "nom_gare": "Pau",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.295",
+                "longitude": "-0.35"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "119",
+                "nom_gare": "Saint-Jean-de-Luz - Ciboure",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "64",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Atlantiques",
+                "latitude": "43.381",
+                "longitude": "-1.676"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "120",
+                "nom_gare": "Lourdes",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "65",
+                "nom_dep": "Hautes-Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes",
+                "latitude": "43.095",
+                "longitude": "-0.049"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "121",
+                "nom_gare": "Tarbes",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "65",
+                "nom_dep": "Hautes-Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes",
+                "latitude": "43.232",
+                "longitude": "0.071"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "122",
+                "nom_gare": "Perpignan",
+                "insee_reg": "76",
+                "nom_reg": "Occitanie",
+                "insee_dep": "66",
+                "nom_dep": "Pyr\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bdes-Orientales",
+                "latitude": "42.697",
+                "longitude": "2.888"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "123",
+                "nom_gare": "Saverne",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "67",
+                "nom_dep": "Bas-Rhin",
+                "latitude": "48.744",
+                "longitude": "7.359"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "124",
+                "nom_gare": "S\u00ef\u00bf\u00bdlestat",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "67",
+                "nom_dep": "Bas-Rhin",
+                "latitude": "48.265",
+                "longitude": "7.441"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "125",
+                "nom_gare": "Strasbourg-Ville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "67",
+                "nom_dep": "Bas-Rhin",
+                "latitude": "48.561",
+                "longitude": "7.76"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "126",
+                "nom_gare": "Colmar",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "68",
+                "nom_dep": "Haut-Rhin",
+                "latitude": "48.077",
+                "longitude": "7.361"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "127",
+                "nom_gare": "Mulhouse-Ville",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "68",
+                "nom_dep": "Haut-Rhin",
+                "latitude": "47.746",
+                "longitude": "7.34"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "128",
+                "nom_gare": "Besan\u00ef\u00bf\u00bdon Franche-Comt\u00ef\u00bf\u00bd TGV",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.985",
+                "longitude": "4.706"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "129",
+                "nom_gare": "Lyon-Part-Dieu",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.759",
+                "longitude": "4.841"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "130",
+                "nom_gare": "Lyon-Perrache",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.749",
+                "longitude": "4.828"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "131",
+                "nom_gare": "Lyon-Saint-Exup\u00ef\u00bf\u00bdry TGV",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.758",
+                "longitude": "4.828"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "132",
+                "nom_gare": "Marne-la-Vall\u00ef\u00bf\u00bde - Chessy",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.888",
+                "longitude": "4.621"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "133",
+                "nom_gare": "Paris-Gare-de-Lyon",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "69",
+                "nom_dep": "Rh\u00ef\u00bf\u00bdne",
+                "latitude": "45.78",
+                "longitude": "4.804"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "134",
+                "nom_gare": "Dole-Ville",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "70",
+                "nom_dep": "Haute-Sa\u00ef\u00bf\u00bdne",
+                "latitude": "47.439",
+                "longitude": "5.589"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "135",
+                "nom_gare": "Chalon-sur-Sa\u00ef\u00bf\u00bdne",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "71",
+                "nom_dep": "Sa\u00ef\u00bf\u00bdne-et-Loire",
+                "latitude": "46.789",
+                "longitude": "4.841"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "136",
+                "nom_gare": "Le Creusot - Montceau - Montchanin",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "71",
+                "nom_dep": "Sa\u00ef\u00bf\u00bdne-et-Loire",
+                "latitude": "46.669",
+                "longitude": "4.377"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "137",
+                "nom_gare": "M\u00ef\u00bf\u00bdcon-Loch\u00ef\u00bf\u00bd TGV",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "71",
+                "nom_dep": "Sa\u00ef\u00bf\u00bdne-et-Loire",
+                "latitude": "46.277",
+                "longitude": "4.784"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "138",
+                "nom_gare": "Le Mans",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "72",
+                "nom_dep": "Sarthe",
+                "latitude": "47.999",
+                "longitude": "0.192"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "139",
+                "nom_gare": "Sabl\u00ef\u00bf\u00bd-sur-Sarthe",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "72",
+                "nom_dep": "Sarthe",
+                "latitude": "47.837",
+                "longitude": "-0.329"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "140",
+                "nom_gare": "Aime-La Plagne",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.573",
+                "longitude": "6.606"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "141",
+                "nom_gare": "Aix-les-Bains-Le Revard",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.69",
+                "longitude": "5.919"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "142",
+                "nom_gare": "Albertville",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.659",
+                "longitude": "6.384"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "143",
+                "nom_gare": "Bourg-Saint-Maurice",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.573",
+                "longitude": "6.828"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "144",
+                "nom_gare": "Chamb\u00ef\u00bf\u00bdry - Challes-les-Eaux",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.559",
+                "longitude": "5.975"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "145",
+                "nom_gare": "Landry",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.576",
+                "longitude": "6.736"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "146",
+                "nom_gare": "Modane",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.201",
+                "longitude": "6.671"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "147",
+                "nom_gare": "Mo\u00ef\u00bf\u00bdtiers - Salins - Brides-les-Bains",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.452",
+                "longitude": "6.567"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "148",
+                "nom_gare": "Saint-Avre - La Chambre",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.356",
+                "longitude": "6.304"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "149",
+                "nom_gare": "Saint-Jean-de-Maurienne - Vall\u00ef\u00bf\u00bde de l'Arvan",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "73",
+                "nom_dep": "Savoie",
+                "latitude": "45.272",
+                "longitude": "6.352"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "150",
+                "nom_gare": "Annecy",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "45.898",
+                "longitude": "6.119"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "151",
+                "nom_gare": "Annemasse",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "46.185",
+                "longitude": "6.242"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "152",
+                "nom_gare": "\u00ef\u00bf\u00bdvian-les-Bains",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "46.398",
+                "longitude": "6.602"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "153",
+                "nom_gare": "Saint-Gervais-les-Bains-Le Fayet",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "45.868",
+                "longitude": "6.682"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "154",
+                "nom_gare": "Sallanches - Combloux - Meg\u00ef\u00bf\u00bdve",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "45.901",
+                "longitude": "6.643"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "155",
+                "nom_gare": "Thonon-les-Bains",
+                "insee_reg": "84",
+                "nom_reg": "Auvergne-Rh\u00ef\u00bf\u00bdne-Alpes",
+                "insee_dep": "74",
+                "nom_dep": "Haute-Savoie",
+                "latitude": "46.374",
+                "longitude": "6.485"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "156",
+                "nom_gare": "Paris-Est",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "75",
+                "nom_dep": "Paris",
+                "latitude": "48.871",
+                "longitude": "2.395"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "157",
+                "nom_gare": "Paris-Montparnasse",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "75",
+                "nom_dep": "Paris",
+                "latitude": "48.838",
+                "longitude": "2.317"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "158",
+                "nom_gare": "Paris-Nord",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "75",
+                "nom_dep": "Paris",
+                "latitude": "48.881",
+                "longitude": "2.356"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "159",
+                "nom_gare": "Le Havre",
+                "insee_reg": "28",
+                "nom_reg": "Normandie",
+                "insee_dep": "76",
+                "nom_dep": "Seine-Maritime",
+                "latitude": "49.505",
+                "longitude": "0.174"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "160",
+                "nom_gare": "A\u00ef\u00bf\u00bdroport Charles-de-Gaulle TGV",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "77",
+                "nom_dep": "Seine-et-Marne",
+                "latitude": "49.006",
+                "longitude": "2.571"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "161",
+                "nom_gare": "Mantes-la-Jolie",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "78",
+                "nom_dep": "Yvelines",
+                "latitude": "48.994",
+                "longitude": "1.721"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "162",
+                "nom_gare": "Versailles-Chantiers",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "78",
+                "nom_dep": "Yvelines",
+                "latitude": "48.797",
+                "longitude": "2.136"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "163",
+                "nom_gare": "Niort",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "79",
+                "nom_dep": "Deux-S\u00ef\u00bf\u00bdvres",
+                "latitude": "46.319",
+                "longitude": "-0.458"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "164",
+                "nom_gare": "Saint-Maixent (Deux-S\u00ef\u00bf\u00bdvres)",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "79",
+                "nom_dep": "Deux-S\u00ef\u00bf\u00bdvres",
+                "latitude": "46.409",
+                "longitude": "-0.205"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "165",
+                "nom_gare": "Amiens",
+                "insee_reg": "32",
+                "nom_reg": "Hauts-de-France",
+                "insee_dep": "80",
+                "nom_dep": "Somme",
+                "latitude": "49.9",
+                "longitude": "2.289"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "166",
+                "nom_gare": "Les Arcs - Draguignan",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "83",
+                "nom_dep": "Var",
+                "latitude": "43.504",
+                "longitude": "6.483"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "167",
+                "nom_gare": "Hy\u00ef\u00bf\u00bdres",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "83",
+                "nom_dep": "Var",
+                "latitude": "43.09",
+                "longitude": "6.123"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "168",
+                "nom_gare": "Saint-Rapha\u00ef\u00bf\u00bdl-Valescure",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "83",
+                "nom_dep": "Var",
+                "latitude": "43.441",
+                "longitude": "6.776"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "169",
+                "nom_gare": "Toulon",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "83",
+                "nom_dep": "Var",
+                "latitude": "43.133",
+                "longitude": "5.964"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "170",
+                "nom_gare": "Avignon-Centre",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "84",
+                "nom_dep": "Vaucluse",
+                "latitude": "44.046",
+                "longitude": "5.031"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "171",
+                "nom_gare": "Orange",
+                "insee_reg": "93",
+                "nom_reg": "Provence-Alpes-C\u00ef\u00bf\u00bdte d'Azur",
+                "insee_dep": "84",
+                "nom_dep": "Vaucluse",
+                "latitude": "44.14",
+                "longitude": "4.812"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "172",
+                "nom_gare": "La Roche-sur-Yon",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "85",
+                "nom_dep": "Vend\u00ef\u00bf\u00bde",
+                "latitude": "46.67",
+                "longitude": "-1.432"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "173",
+                "nom_gare": "Les Sables-d'Olonne",
+                "insee_reg": "52",
+                "nom_reg": "Pays de la Loire",
+                "insee_dep": "85",
+                "nom_dep": "Vend\u00ef\u00bf\u00bde",
+                "latitude": "46.479",
+                "longitude": "-1.758"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "174",
+                "nom_gare": "Ch\u00ef\u00bf\u00bdtellerault",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "86",
+                "nom_dep": "Vienne",
+                "latitude": "46.796",
+                "longitude": "0.525"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "175",
+                "nom_gare": "Futuroscope",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "86",
+                "nom_dep": "Vienne",
+                "latitude": "46.659",
+                "longitude": "0.362"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "176",
+                "nom_gare": "Poitiers",
+                "insee_reg": "75",
+                "nom_reg": "Nouvelle-Aquitaine",
+                "insee_dep": "86",
+                "nom_dep": "Vienne",
+                "latitude": "46.579",
+                "longitude": "0.335"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "177",
+                "nom_gare": "\u00ef\u00bf\u00bdpinal",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "88",
+                "nom_dep": "Vosges",
+                "latitude": "48.175",
+                "longitude": "6.45"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "178",
+                "nom_gare": "Remiremont",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "88",
+                "nom_dep": "Vosges",
+                "latitude": "48.006",
+                "longitude": "6.604"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "179",
+                "nom_gare": "Saint-Di\u00ef\u00bf\u00bd-des-Vosges",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "88",
+                "nom_dep": "Vosges",
+                "latitude": "48.293",
+                "longitude": "6.962"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "180",
+                "nom_gare": "Saint-Michel - Valloire",
+                "insee_reg": "44",
+                "nom_reg": "Grand Est",
+                "insee_dep": "88",
+                "nom_dep": "Vosges",
+                "latitude": "48.157",
+                "longitude": "6.134"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "181",
+                "nom_gare": "Belfort - Montb\u00ef\u00bf\u00bdliard TGV",
+                "insee_reg": "27",
+                "nom_reg": "Bourgogne-Franche-Comt\u00ef\u00bf\u00bd",
+                "insee_dep": "90",
+                "nom_dep": "Territoire de Belfort",
+                "latitude": "47.637",
+                "longitude": "6.858"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "182",
+                "nom_gare": "Massy - Palaiseau",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "91",
+                "nom_dep": "Essonne",
+                "latitude": "48.731",
+                "longitude": "2.243"
+            }
+        },
+        {
+            "type": "GareTGV",
+            "properties": {
+                "gare_id": "183",
+                "nom_gare": "Massy TGV",
+                "insee_reg": "11",
+                "nom_reg": "\u00ef\u00bf\u00bdle-de-France",
+                "insee_dep": "91",
+                "nom_dep": "Essonne",
+                "latitude": "48.736",
+                "longitude": "2.291"
+            }
+        }
+    ]
+}

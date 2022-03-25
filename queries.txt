@@ -1,0 +1,60 @@
+
+
+#############################################################
+
+Récupère les les temperatures des villes
+
+SELECT DISTINCT ?ville ?temp
+WHERE  {
+    ?x :ville ?ville .
+    ?x :temp ?temp .
+}
+
+#############################################################
+
+Récupère les utilisateurs qui correspondent à la chaine rentrée
+
+SELECT DISTINCT ?username ?identifier ?first_name ?last_name ?age
+WHERE  {
+    { 
+        ?x :username ?username .
+        ?x :identifier ?identifier .
+        ?x :first_name ?first_name .
+        ?x :last_name ?last_name .
+        ?x :age ?age .
+        FILTER regex(?username, "<username>", "i") 
+    } 
+}
+
+#############################################################
+
+Récupère les trajets dont l'origine est la ville entrée
+
+SELECT DISTINCT ?origine ?destination
+WHERE  {
+    { 
+        ?x :origine ?origine .
+        ?x :destination ?destination .
+        FILTER regex(?origine, "<ville>", "i") 
+    } 
+}
+
+
+Récupère les coordonnées GPS des villes qui sont soit l'origine soit la destination de la requête précédente
+
+SELECT DISTINCT ?lat ?lon ?name
+WHERE  {
+    { 
+        ?x :latitude ?lat .
+        ?x :longitude ?lon .
+        ?x :nom_gare ?name .
+        FILTER regex(?name, "<origine>", "i") 
+    } UNION {
+        ?x :latitude ?lat .
+        ?x :longitude ?lon .
+        ?x :nom_gare ?name .
+        FILTER regex(?name, "<destination>", "i") 
+    }
+}
+
+#############################################################
