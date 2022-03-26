@@ -30,4 +30,5 @@ Finally you can run the following command to open the application:
 
 
 ## Vidéo
-![caption](./demo_vid.mp4)
+https://user-images.githubusercontent.com/85459577/160256281-70c12d7d-7ef2-4fad-999c-e973c7efa042.mp4
+
