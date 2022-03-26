@@ -30,4 +30,4 @@ Finally you can run the following command to open the application:
 
 
 ## Vidéo
-./demo_vid.mp4
+![caption](./demo_vid.mp4)
