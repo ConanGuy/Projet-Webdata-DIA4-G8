@@ -30,4 +30,4 @@ Finally you can run the following command to open the application:
 
 
 ## Vidéo
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](demo_vid.mp4)
+./demo_vid.mp4
