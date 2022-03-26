@@ -1,0 +1,582 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#"
+     xml:base="http://www.semanticweb.org/ryana/ontologies/2022/2/trips"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_End -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_End">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_end_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_Meteo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_Meteo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_meteo_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_Start -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_Start">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_user -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_user">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_user_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_end_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_end_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_meteo_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_meteo_of">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_start_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_start_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_user_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#is_user_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Axe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Axe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Destination -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Destination"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Destination_IATA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Destination_IATA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Disponibilité_de_places -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Disponibilité_de_places">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Entity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#First_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#First_Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Heure_arrivée -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Heure_arrivée"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Heure_départ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Heure_départ"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#INSEE_DEP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#INSEE_DEP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#INSEE_REG -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#INSEE_REG"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Id"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Identifier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Last_Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Last_Name"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Latitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Longitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#NOM_DEP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#NOM_DEP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#NOM_REG -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#NOM_REG"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Nom_Gare -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Nom_Gare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Origine -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Origine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#OrigineIATA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#OrigineIATA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Train_No -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Train_No"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Username"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#code_equipement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#code_equipement"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Meteo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Meteo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_user"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_End"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#has_Start"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI0">
+        <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</INSEE_DEP>
+        <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</INSEE_REG>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Id>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.097</Latitude>
+        <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.847</Longitude>
+        <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</NOM_DEP>
+        <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auvergne-Rhône-Alpes</NOM_REG>
+        <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aix-en-Provence TGV</Nom_Gare>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI1">
+        <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</INSEE_DEP>
+        <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</INSEE_REG>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</Id>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.114</Latitude>
+        <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.824</Longitude>
+        <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</NOM_DEP>
+        <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auvergne-Rhône-Alpes</NOM_REG>
+        <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellegarde</Nom_Gare>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI2">
+        <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</INSEE_DEP>
+        <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</INSEE_REG>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</Id>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.196</Latitude>
+        <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.275</Longitude>
+        <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</NOM_DEP>
+        <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auvergne-Rhône-Alpes</NOM_REG>
+        <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bourg-en-Bresse</Nom_Gare>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI3">
+        <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</INSEE_DEP>
+        <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</INSEE_REG>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Id>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.171</Latitude>
+        <Longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.577</Longitude>
+        <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</NOM_DEP>
+        <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auvergne-Rhône-Alpes</NOM_REG>
+        <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cluses</Nom_Gare>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#POI4">
+        <INSEE_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</INSEE_DEP>
+        <INSEE_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</INSEE_REG>
+        <Id rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</Id>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46.181</Latitude>
+        <Latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.521</Latitude>
+        <NOM_DEP rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</NOM_DEP>
+        <NOM_REG rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auvergne-Rhône-Alpes</NOM_REG>
+        <Nom_Gare rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nurieux</Nom_Gare>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP0">
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BORDEAUX ST JEAN</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRBOJ</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSESO</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11:32</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10:27</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGEN</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRAGF</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4752</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Trips"/>
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARLES</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRHZA</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSOSE</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13:47</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:36</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SETE</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRXSY</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4657</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP2">
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONTAUBAN VILLE BOUBON</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRXMW</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSESO</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9:48</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:33</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARCASSONNE</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRCCF</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4752</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP3">
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2202-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONTAUBAN VILLE BOURBON</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRXMW</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSESO</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9:48</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:06</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONTPELLIER SAINT ROCH</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRMLP</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4752</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP4">
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARBONNE</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRXNA</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSESO</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:59</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7:06</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONTPELLIER SAINT ROCH</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRMLP</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4752</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#TRIP5">
+        <Axe rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEOZ</Axe>
+        <Date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-04-01</Date>
+        <Destination rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CARCASSONNE</Destination>
+        <Destination_IATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRCCF</Destination_IATA>
+        <Disponibilité_de_places rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OUI</Disponibilité_de_places>
+        <Entity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJOURSESO</Entity>
+        <Heure_arrivée rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:31</Heure_arrivée>
+        <Heure_départ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8:02</Heure_départ>
+        <Origine rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARBONNE</Origine>
+        <OrigineIATA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FRXNA</OrigineIATA>
+        <Train_No rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4752</Train_No>
+        <code_equipement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TJC</code_equipement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User0">
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rachel</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Booker</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">booker12</Username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#Users"/>
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michel</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrollDu91</Username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User2">
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Craig</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Johnson</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">johnson81</Username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User3">
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jenkins</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jenkins46</Username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User4">
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jamie</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smith</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smith79</Username>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ryana/ontologies/2022/2/trips#User5">
+        <First_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laura</First_Name>
+        <Identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</Identifier>
+        <Last_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grey</Last_Name>
+        <Username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grey07</Username>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
