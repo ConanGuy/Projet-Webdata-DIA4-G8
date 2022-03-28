@@ -1,9 +1,22 @@
+from venv import create
 from rdflib import Graph
 import json
 import pandas as pd
 import pickle
+import os
 
-def jsonld_to_rdf(filename):    
+path = '/Users/krunal/Desktop/code/pyt/database'
+
+def create_dir(path):
+    isExist = os.path.exists(path)
+    isExist
+
+    if not isExist:
+        os.makedirs(path)
+
+def jsonld_to_rdf(filename):   
+    print(f"Starting conversion from JSON-LD {filename} to RDF")
+     
     # On ouvre le fichier jsonld
     jsonld_obj = json.load(open("json-ld/"+filename+".json", "r"))
     
@@ -16,9 +29,12 @@ def jsonld_to_rdf(filename):
     # On enregistre l'objet Graph dans un fichier pour pouvoir accélérer l'ouverture du programme principale
     pickle.dump(rdf_data, open("rdf_obj/"+filename+".pkl", "wb"), pickle.HIGHEST_PROTOCOL)
 
+    print(f"Conversion from JSON-LD {filename} to RDF ended")
     return rdf_data
     
 def csv_to_jsonld(filename, type_name):
+    print(f"Starting conversion from CSV {filename} to JSON-LD")
+    
     # Ouverture du csv
     df = pd.read_csv("csv/"+filename+".csv", na_values="", encoding="latin1")
     
@@ -60,14 +76,21 @@ def csv_to_jsonld(filename, type_name):
 
     # On enregistre le jsonld dans un fichier .json
     json.dump(jsonld_obj, open("json-ld/"+filename+".json", "w"))
-
+    
+    print(f"Conversion from CSV {filename} to JSON-LD ended")
+    
 def csv_to_rdf(filename, type_name):
     csv_to_jsonld(filename, type_name)
     jsonld_to_rdf(filename)
     
 if __name__ == "__main__":
     import load_live
+
+    create_dir("./rdf/")
+    create_dir("./rdf_obj/")
+    create_dir("./json-ld/")
+
     load_live.load_live()
-    csv_to_rdf("gares_tgv", "GareTGV")
+    csv_to_rdf("gares-tgv", "GareTGV")
     csv_to_rdf("tgvmax", "TGVMax")
     csv_to_rdf("username", "Username")
